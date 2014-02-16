@@ -1,5 +1,5 @@
 {{! The main content area on the homepage }}
-<section class="articles">
+<section class="articles multiple">
 
 	{{! Each post will be output using this markup }}
 	{{#foreach posts}}
@@ -7,15 +7,15 @@
 
 		<header>
 
-			<span>{{date published_at format="DD MMMM YYYY"}} by {{author.name}} {{#if tags}}on {{tags separator=" | "}}{{/if}}</span>
+
+            <span>{{date published_at format="DD MMMM, YYYY"}} by {{author.name}} <span class="topics">{{#if tags}}&lt;&lt;&nbsp;{{tags separator=", "}}&nbsp;&gt;&gt;{{/if}}</span></span>
 
 			<h1><a href="{{url}}" title="{{title}}">{{title}}</a></h1>
 
 		</header>
 
 		<section>
-			<p>{{excerpt}}</p>
-			<a class="read-more" href="{{url}}" title="{{title}}">Read more</a>
+			<p>{{content}}</p>
 		</section>
 
 	</article>

@@ -1,5 +1,5 @@
 /**
- * Main JS file for Swayze behaviours
+ * Main JS file
  */
 
 /*globals jQuery, document */

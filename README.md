@@ -1,7 +1,4 @@
-swayze
+Demi
 ======
 
-The first ever WooThemes theme for Ghost.
-
-* Designed by Cobus Bester
-* Developed by Jeffrey Pearce
+A fork of Swayze - a theme by WooThemes for the Ghost blogging platform.

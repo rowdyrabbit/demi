@@ -1,0 +1,23 @@
+{{! Everything inside the #post tags pulls data from the post }}
+{{#post}}
+<section class="articles">
+<article class="{{post_class}}">
+
+    <header>
+
+    	<span>{{date published_at format="DD MMMM, YYYY"}} by {{author.name}} <span class="topics">{{#if tags}}&lt;&lt;&nbsp;{{tags separator=", "}}&nbsp;&gt;&gt;{{/if}}</span></span>
+
+    	<h1><a href="{{url}}" title="{{title}}">{{title}}</a></h1>
+
+    </header>
+
+    <section>
+
+    	{{content}}
+
+    </section>
+
+</article>
+</section>
+
+{{/post}}

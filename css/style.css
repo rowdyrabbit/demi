@@ -368,7 +368,7 @@ blockquote p {
   margin: 0 auto;
 }
 .site-header {
-  margin: 0 0 3.631em;
+  margin: 0 0 1em;
   padding: 2.618em 0;
   text-align: center;
   border-bottom: 5px solid #dddddd;
@@ -385,7 +385,7 @@ blockquote p {
   margin: 0;
   font-size: 1.2em;
   font-weight: 900;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 .site-header h2 {
   font-size: .8em;
@@ -398,7 +398,7 @@ blockquote p {
   max-width: 740px;
 }
 article {
-  margin: 0 0 3.631em;
+  margin: 0 0 1em;
 }
 article header span {
   display: block;
@@ -408,9 +408,6 @@ article header span {
   font-weight: 600;
   text-transform: uppercase;
   color: #939393;
-}
-.home-template article p:after {
-  content: '…';
 }
 .home-template article .read-more:after {
   font-family: 'FontAwesome';
@@ -594,11 +591,11 @@ footer img {
     font-size: 0.857em;
   }
   .site-header {
-    margin: 0 0 5.874em;
-    padding: 5.874em 0;
+    /*margin: 0 0 5.874em;*/
+    padding: 2.5em 0;
   }
   article {
-    margin: 0 0 5.874em;
+    margin: 0 0 1em;
   }
   aside {
     padding-left: 20%;
