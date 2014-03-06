@@ -1,4 +1,4 @@
 
-<span>{{date published_at format="DD MMMM, YYYY"}} by {{author.name}} <span class="topics">{{#if tags}}&lt;&lt;&nbsp;{{tags separator=", "}}&nbsp;&gt;&gt;{{/if}}</span></span>
+<span>{{date published_at format="DD MMMM, YYYY"}} by {{author.name}} <span class="topics">{{#if tags}}&lt;&lt;&nbsp;{{tags separator=", "}}&nbsp;&gt;&gt;{{/if}}</span><span class="comments"><a href="{{url}}#disqus_thread" data-disqus-identifier="{{id}}">Comments</a></span></span>
 
 <h1><a href="{{url}}" title="{{title}}">{{title}}</a></h1>
