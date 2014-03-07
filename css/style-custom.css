@@ -38,6 +38,10 @@
     font-size: 75%;
 }
 
+.comments a:hover {
+    color: #088933;
+}
+
 .credits {
     text-transform: uppercase;
 }
