@@ -1,12 +1,12 @@
 Demi
 ======
 
-A fork of Swayze - a theme by WooThemes for the Ghost blogging platform.
+A fork of Swayze - a theme created by WooThemes for the Ghost blogging platform.
 
 
 How to use this theme
 =======================
-Simply click the 'Download ZIP button', this will download a zip file called 'demi-master.zip' to your local file system. Then just upload the theme into the Ghost blogging platform as per the instructions.
+Simply click the 'Download ZIP' button in the main repository view; this will download a zip file called 'demi-master.zip' to your local file system. Then just upload the theme into the Ghost blogging platform as per the Ghost instructions.
 
 How to modify this theme
 =========================
